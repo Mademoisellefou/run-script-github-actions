@@ -13,8 +13,7 @@ jobs:
     - name: Check-out devops repository
       uses: actions/checkout@main
       with:
-        repository:  Mademoisellefou /
-run-script-github-actions
+        repository:  Mademoisellefou/run-script-github-actions
         token: ${{ secrets.GITHUB_TOKEN }}
         path: ${{ env.DEVOPS_DIR }}
 
